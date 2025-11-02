@@ -1,0 +1,20 @@
+Constructors
+
+Types
+1)Default constructors
+2)Parameterized constructors
+3)copy constructors
+
+Constructors(Default & Parameterized)
+*Constructors are the group of statement executed each time a object is created.
+*It should be same as class name.
+*It should not contain any static modifier.
+*Return type should not be present.
+*Constructors are used to initialize the object.
+
+Constructor Overloading
+*In a class having more than 1 constructor ,but diff arguments is called constructor overloading.
+
+
+Copy Constructors
+*creating new constructor same as existing constructor with same exact parameters ,then we have to pass the current object as reference to the new object
