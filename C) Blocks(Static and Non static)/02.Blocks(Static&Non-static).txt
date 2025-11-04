@@ -14,7 +14,9 @@ STATIC BLOCK:
 
 
 NON-STATIC BLOCK:
+
 *Non-static block is not prefixed with any keyword.
 *Used to initialize the both static and non static variables.
 *To initialize the Variables ,we must and should have to create the object.
 *We can create a object inside static block ,but not in non-static block.
+
