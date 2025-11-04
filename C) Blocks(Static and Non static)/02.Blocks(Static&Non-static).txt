@@ -1,0 +1,20 @@
+BLOCKS:
+Blocks are the set of instructions used for initialization
+
+Types
+1)static Blocks
+2)Non-static Block
+
+STATIC BLOCK:
+
+*Prefixed with static keyword.
+*Used to initialize the static Variables.
+*In a class we can create n number of blocks ,but execution starts from top to bottom(Sequentially).
+*Also static blocks executes before main method itself(in class loading itself).
+
+
+NON-STATIC BLOCK:
+*Non-static block is not prefixed with any keyword.
+*Used to initialize the both static and non static variables.
+*To initialize the Variables ,we must and should have to create the object.
+*We can create a object inside static block ,but not in non-static block.
