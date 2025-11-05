@@ -1,0 +1,38 @@
+Inheritance:
+Acquiring properties from super class to sub class with the help of extends keyword.
+*Inheritance is also known as is-a-relationship.
+*We can inherit var and methods from one class to another class
+*We cannot inherit blocks and constructors
+
+
+*The class which denotes the properties is known as parent/super/base class.
+*The class which acquire the properties is known as child/sub/derived class.
+
+
+Diff between this and super keyword
+This-used to call the global vars present in same class.
+Super-used to call the global vars present in super class.
+
+
+UML(Unified Modeling Language)
+      It is a representation of program in a diagrammatic way.
+
+
+Types of Inheritance:-
+
+1)Single-level-inheritance:
+*Having one parent class and one single child class is known as single-level-inheritance.
+
+2)Multi-level-inheritance:
+*Combination of super classes and sub classes from top to bottom sequential way is call MLI.
+
+3)Hierarchical inheritance:
+*Having only one parent class and having more than one child class inheriting properties is called Hierarchical inheritance.
+
+4)Multiple Inheritance:
+*Having two or more parent class and only one child class is called multiple inheritance.
+*MI is not possible in java using class ,but possible using interface.
+
+5)Hybrid Inheritance:
+*combination of two or more types of inheritance is known as hybrid inheritance.
+*Hybrid inheritance is partially possible in java because when we invoke multiple inheritance in hybrid it is not possible using class ,but when we exclude multiple inheritance it is possible.
