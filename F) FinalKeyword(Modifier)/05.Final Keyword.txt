@@ -1,0 +1,7 @@
+Final Keyword:
+
+*Final modifiers/keyword are used to provide restriction for class , method ,variable.
+*Final variable value once initialized ,cannot be changed.
+*Final variable acts as constants in java.
+*Final methods cannot be overridden in subclass ,but can be inherited.
+*Final class cant be extended.
