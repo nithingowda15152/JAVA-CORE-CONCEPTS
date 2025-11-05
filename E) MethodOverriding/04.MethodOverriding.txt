@@ -1,0 +1,26 @@
+Method Overriding:
+Inheriting Non-static/non-final/non-private properties from super class to sub class is known as method Overriding.
+
+Rules:
+*To achieve MO ,inheritance is mandatory.
+*The method declaration should be same ,that means same method name ,same return type ,same modifier ,same formal arguments.
+*The Access modifier can be same or it should have higher visibility.
+       I.e, In parent class if there is a default method is present,in child class we can have default,public,protected(higher visibility).
+
+
+NEED:
+
+1) To Achieve Runtime Polymorphism:
+    Overriding allows java to decide which method to call at runtime based on object type,not on reference type.
+
+2) To Provide specific implementation in sub class.
+
+3) To implement interface/abstract class method:
+    when class implements an interace or extends the abstract class,it must ovveride the absttract method to provide actual behavior.
+
+4) To improve existing functionality.
+
+
+NOTE:
+*We cannot overrie main method because,main method is static.
+*We cannnot override constructors because,we cannot inherit constructors.
