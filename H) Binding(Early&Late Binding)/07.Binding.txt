@@ -1,0 +1,18 @@
+BINDING:
+Method call connecting to its implementation is known as Binding.
+
+Types
+1)Early Binding
+2)Late Binding
+
+EARLY BINDING:
+*Method call connecting to its implementation at compile time based on reference.
+*Early Binding is known as compile time binding
+*Early Binding is exhibited by all the static vars ,Non-static vars ,static methods ,final methods & private methods.
+
+
+LATE BINDING:
+*Method call connecting to its implementation at  Run-time based on object.
+*Late Binding is known as Runtime Binding.
+*Late Binding is exhibited by non-static method which is not final/static.
+
