@@ -1,0 +1,14 @@
+UPCASTING:
+*Creating the object of subclass and storing it to the reference of super class.
+*It is used to achieve generalization
+*With the help of upcasting ,we can access only properties of superclass ,not subclass.
+*To achieve upcasting , inheritance is necessary.
+
+
+
+DOWNCASTING:
+*casting back the upcasted reference to sub class.
+*It is also known as specialization.
+*With the help of downcasting ,we can access both superclass and subclass properties.
+*To achieve upcasting we need to achieve upcasting.
+*Downcasting is the explicit process.
