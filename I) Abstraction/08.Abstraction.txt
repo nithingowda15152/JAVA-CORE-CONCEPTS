@@ -24,3 +24,13 @@ DEF: The class prefixed with abstract keyword is known as abstract class.
 *All the non static properties we cannot access in abstract class, because we cannot create object in abstract class
     So, We need to inherit properties from super class to sub class with the help of extends keyword, and with the help of super-call ,the parent class constructor will call all the non-static property will be loaded and through the object creation of subclass we can access all non-static property
 Because of this constructor is necessary in abstract class.
+
+abstraction can be achieved in two ways
+1)using abstract class
+2)using interface
+
+Hiding complex implementation details and providing functionality is known as abstraction.
+*With the help of abstraction we can hide the implementation of business logic.
+
+Advantage:*Code reusability
+          *loose coupling
