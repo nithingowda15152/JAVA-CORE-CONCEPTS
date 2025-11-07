@@ -25,12 +25,39 @@ DEF: The class prefixed with abstract keyword is known as abstract class.
     So, We need to inherit properties from super class to sub class with the help of extends keyword, and with the help of super-call ,the parent class constructor will call all the non-static property will be loaded and through the object creation of subclass we can access all non-static property
 Because of this constructor is necessary in abstract class.
 
-abstraction can be achieved in two ways
-1)using abstract class
-2)using interface
-
+ABSTRACTION:
 Hiding complex implementation details and providing functionality is known as abstraction.
 *With the help of abstraction we can hide the implementation of business logic.
 
 Advantage:*Code reusability
           *loose coupling
+
+abstraction can be achieved in two ways
+1)using abstract class
+2)using interface
+
+INTERFACE:
+DEFINATION-A Java interface is a reference type that defines a contract of abstract methods that implementing classes must provide, allowing multiple classes to share common behavior.
+
+*interface is created with the help of interface keyword.
+*interface is a non primitive type in java.
+*interface is used as a interface between service provider and user program.
+*In interface by default all variables will be public static final & methods will be public abstract.
+*From java 8, interface allows a non static method with implementation called default method and also static methods.
+*From java 9, private methods are allowed in interface.
+*In interface, we don't have constructors.
+*In interface, we cannot create an instance or create an object of the interface.
+*To inherit the properties from interface, use implements keyword.
+*Whenever we inherit the properties from interface, we should mandatorily override abstract methods present in the interface.
+*To access static vars and method we should make use of interface name.
+*To access the abstract method we should override and with the subclass object creation or with the upcasting we can access the abstract method.
+*while overriding abstract methods we should always use public access modifier.
+*An interface cannot inherit property from class.
+*An interface we can inherit property from another interface with the help of extends keyword.
+*In interface static blocks are not allowed because the variables by default are public static final.
+
+
+
+
+
+
