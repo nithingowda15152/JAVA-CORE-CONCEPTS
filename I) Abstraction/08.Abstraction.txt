@@ -1,0 +1,26 @@
+abstract: It is a keyword in java ,since it is a keyword-we should write it in a lowercase.
+meaning of abstract :Incomplete/Overview.
+We can prefix abstract keyword for class and method.
+
+ABSTRACT METHOD:
+*The method without implementation prefixed with abstract keyword and ending with an semicolon is known as abstraction.
+*Whenever we write the abstract method ,we should make class compulsory abstract 
+     because ,we cannot write abstract method in concrete class
+
+
+⦁	CONCRETE CLASS: The class without abstract keyword is called concrete class.
+⦁	CONCRETE METHOD: The method without abstract keyword is called concrete method.
+
+
+NOTE: *To access the abstract method we should inherit the abstract property and override the method ,then we can access it.
+      *In abstract method there will be no implementation, we should inherit it and then override-then only we can access.
+
+ABSTRACT CLASS:
+DEF: The class prefixed with abstract keyword is known as abstract class.
+*We cannot create the object of abstract class but we can create the reference of it.
+*abstract class can be inherited to concrete class with the help of extends keyword and mandatorily should override it.
+*In abstract class we can write everything except object creation.
+
+*All the non static properties we cannot access in abstract class, because we cannot create object in abstract class
+    So, We need to inherit properties from super class to sub class with the help of extends keyword, and with the help of super-call ,the parent class constructor will call all the non-static property will be loaded and through the object creation of subclass we can access all non-static property
+Because of this constructor is necessary in abstract class.
