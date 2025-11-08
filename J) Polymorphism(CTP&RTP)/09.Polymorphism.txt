@@ -1,0 +1,16 @@
+POLYMORPHISM:
+*POLY means many, morph means forms(many forms)
+*An entity behaving differently in different situations is known as polymorphism.
+TWO TYPES
+1)COMPILE TIME POLYMORPHISM
+2)RUNTIME POLYMORPHISM
+
+1)COMPILE TIME POLYMORPHISM:
+*Calling an overloaded method resolved at compile time based on parameters.
+*method overloading is a ex of CTP.
+
+2)RUNTIME POLYMORPHISM:
+*Calling an overridden method resolved at runtime based on object type.
+*method overriding is an example of RTP
+
+
