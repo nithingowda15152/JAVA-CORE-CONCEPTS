@@ -57,7 +57,23 @@ DEFINATION-A Java interface is a reference type that defines a contract of abstr
 *In interface static blocks are not allowed because the variables by default are public static final.
 
 
+DEAFAUT METHOD:
+*The method with implementation in interface is called default method.
+*overriding defaults methods is not mandatory.
+*If you override the default method and then if you need to call the method in interface then use this this syntax
+          SYNTAX- interface.superkeyword.methodcall
 
+*In interface we can write private method ,and if we need to access then it should call under default method under same class
 
+TYPES OF INTERFACE
+1)MARKER/TAGGED INTERFACE
+2)FUNCTIONAL INTERFACE
 
+1)MARKER INTERFACE:
+*Interface without any abstract methods is known as marker interface
+*Marker interface is used to indicate some special property of a type to JDK.
+  EX: Cloneable ,serializable.
 
+2)FUNCTIONAL INTERFACE:
+*The interface which has only one abstract method is known as functional interface.
+*It is used in lambda expression.
