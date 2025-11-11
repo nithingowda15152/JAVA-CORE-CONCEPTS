@@ -1,0 +1,19 @@
+ENCAPSULATION:
+The process of grouping and protecting the data members & data function in a single entity called class.
+
+ADVANTAGE:
+*With the help of encapsulation validation can be done.(protecting the data or data security)
+*The flexibility of data
+    The data can be made either write only / read only.
+        write only by setters.
+        read only by getters.
+
+*Readability of code is improved
+The best example for encapsulation is java bean class.
+
+Specification of bean class:
+*class must be public non abstract class.
+*The class should have public non-parameterized constructor.
+*Variable should be declared as private
+*Those variables should have respective setter and getter methods.
+*The class must implements from marker interface known as serializable.
