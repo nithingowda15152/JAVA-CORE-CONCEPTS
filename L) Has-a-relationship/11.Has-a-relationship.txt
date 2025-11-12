@@ -1,0 +1,32 @@
+HAS-A-RELATIONSHIP:
+means one class contains another class as a member variable(field).
+(or)
+one class has a object of another class.
+
+has-a-relationship doesn't have any specific keyword to achieve , its all about object relationship like how one object depends on another object
+
+There are two types 
+1) Composition
+2) Aggregation
+
+COMPOSITION:
+*The contained object cannot exist without the container object.
+*If the container object is destroyed ,then contained object is also destroyed.
+*Ownership is very strong.
+*EXAMPLES:1)Car has a engine.
+          2)Boy has a heart.
+
+
+AGGREGATION:
+*he contained object can exist without the container object.
+*The container object uses or refers to object created elsewhere.
+*Ownership is very weak.
+*EXAMPLES:1)library has a book.
+          2)company has a employee.
+
+
+Advantages:
+*code reusability
+*increase flexibility
+*has encapsulated behavior
+    EX: Car doesn't need to know how engine works ,but it just want to use it. 
