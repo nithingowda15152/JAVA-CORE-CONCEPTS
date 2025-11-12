@@ -1,3 +1,4 @@
+//Example for composition
 class heart{
     void pump(){
         System.out.println("heart started pumping");
@@ -17,3 +18,4 @@ public class Person {
         p.startbreath();
     }
 }
+
