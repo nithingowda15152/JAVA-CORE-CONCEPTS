@@ -4,8 +4,8 @@ public class File_Not_Found_Exception{
         try{
             FileInputStream fis=new FileInputStream("d:/abc.txt");
         }catch(Exception e){
-            System.out.println(e);
+            //System.out.println(e);
+            System.out.println("File not Found");
         }
-
     }
 }
